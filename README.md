@@ -84,7 +84,15 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 &showWorlds=true    // Redirects to your-domain.com/worlds
 ```
 
-You must create these pages yourself before enabling these features. If you haven't created these pages yet, set these options to `false` or omit them.
+You must create these pages yourself before enabling these features. If you haven't created these pages yet, set these options to `false`.
+
+### Navigation Buttons
+By default, all navigation buttons are enabled. Use these parameters to disable specific buttons:
+```
+?showGallery=true&galleryUrl=https://your-domain.com/img
+&showAvatars=true&avatarsUrl=https://your-domain.com/avatars
+&showWorlds=true&worldsUrl=https://your-domain.com/worlds
+```
 
 ## Full Example
 ```html
@@ -148,4 +156,3 @@ Simply download, replace "YourName" and "usr_xxxx" with your details, and you're
 
 ## Support
 For issues or questions, click [here](https://github.com/dRootDev/vrchat-profile-embed/issues)
-
