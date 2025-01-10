@@ -76,15 +76,11 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 ```
 
 ### Navigation Buttons
-⚠️ **Important**: These buttons require your own pages at the specified paths:
-
 ```
-?showGallery=true   // Redirects to your-domain.com/img
+?showGallery=true   // Redirects to your-domain.com/gallery
 &showAvatars=true   // Redirects to your-domain.com/avatars
 &showWorlds=true    // Redirects to your-domain.com/worlds
 ```
-
-You must create these pages yourself before enabling these features. If you haven't created these pages yet, set these options to `false`.
 
 ### Navigation Buttons
 The buttons are enabled by default and will link to VRChat's default pages. To customize the URLs:
