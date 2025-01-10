@@ -19,11 +19,29 @@
     </style>
 </head>
 <body>
+    <!-- Default embed (shows default VRChat profile) -->
     <iframe 
-        src="https://www.droot.me/home/vrc/embed" 
+        src="https://www.droot.me/home/vrc/embed?showGallery=false&showAvatars=false&showWorlds=false" 
         style="width: 100%; height: 100vh; border: none; position: fixed; top: 0; left: 0;" 
         frameborder="0"
         title="VRChat Profile">
     </iframe>
+
+    <!-- 
+    To customize, add parameters after /embed? like this:
+    
+    Basic customization:
+    /embed?username=YourName&vrchatId=usr_123456789
+
+    With social links:
+    /embed?username=YourName&vrchatId=usr_123456789&socials[discord]=123456789
+
+    With theme colors:
+    /embed?username=YourName&theme[headerBg]=%23461685&theme[buttonBg]=%23461685
+
+    Full customization example:
+    /embed?username=YourName&vrchatId=usr_123456789&profilePic=https://pic.url&socials[discord]=123456789&theme[headerBg]=%23461685
+    -->
 </body>
 </html>
+
