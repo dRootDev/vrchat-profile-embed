@@ -67,15 +67,6 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 &socials[github]=githubuser
 ```
 
-To disable individual social media links, set the value to `false`:
-```
-?socials[discord]=false
-&socials[bluesky]=false
-&socials[twitter]=false
-&socials[twitch]=false
-&socials[github]=false
-```
-
 ### Theme Colors (Use %23 for #)
 ```
 ?theme[headerBg]=%23ff0000          // Header background
