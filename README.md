@@ -87,11 +87,11 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 You must create these pages yourself before enabling these features. If you haven't created these pages yet, set these options to `false`.
 
 ### Navigation Buttons
-By default, all navigation buttons are enabled. Use these parameters to disable specific buttons:
+The buttons are enabled by default and will link to VRChat's default pages. To customize the URLs:
 ```
-?showGallery=true&galleryUrl=https://your-domain.com/img
-&showAvatars=true&avatarsUrl=https://your-domain.com/avatars
-&showWorlds=true&worldsUrl=https://your-domain.com/worlds
+?&galleryUrl=https://your-domain.com/img
+&avatarsUrl=https://your-domain.com/avatars
+&worldsUrl=https://your-domain.com/worlds
 ```
 
 ## Full Example
