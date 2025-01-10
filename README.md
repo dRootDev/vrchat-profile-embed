@@ -137,7 +137,7 @@ https://www.droot.me/home/vrc/embed?username=CoolUser&vrchatId=usr_123456789
 - Only enable navigation buttons if you have the corresponding pages ready
 
 ## Quick Start Template
-Download our [example HTML file](example.html) to get started quickly. This template includes:
+Download my [example HTML file](example.html) to get started quickly. This template includes:
 - Proper HTML structure
 - Meta tags for SEO
 - Viewport settings for mobile
