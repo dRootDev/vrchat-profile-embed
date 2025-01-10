@@ -89,7 +89,7 @@ You must create these pages yourself before enabling these features. If you have
 ## Full Example
 ```html
 <iframe 
-    src="https://www.droot.me/home/vrc/embed?username=CoolUser&vrchatId=usr_123456789&profilePic=https://your-pic-url.com/pic.jpg&socials[discord]=123456789&theme[headerBg]=%23461685&theme[headerBorder]=%236929c4&theme[buttonBg]=%23461685&theme[buttonBorder]=%236929c4&theme[buttonHoverBg]=%236929c4&theme[buttonHoverBorder]=%238a3ddb" 
+    src="https://www.droot.me/home/vrc/embed?username=CoolUser&vrchatId=usr_123456789&socials[discord]=123456789&theme[headerBg]=%23461685&theme[headerBorder]=%236929c4&theme[buttonBg]=%23461685&theme[buttonBorder]=%236929c4&theme[buttonHoverBg]=%236929c4&theme[buttonHoverBorder]=%238a3ddb" 
     style="width: 100%; height: 100vh; border: none; position: fixed; top: 0; left: 0;" 
     frameborder="0">
 </iframe>
@@ -147,4 +147,5 @@ Download our [example HTML file](example.html) to get started quickly. This temp
 Simply download, replace "YourName" and "usr_xxxx" with your details, and you're ready to go!
 
 ## Support
-For issues or questions, visit droot.me
+For issues or questions, click [here](https://github.com/dRootDev/vrchat-profile-embed/issues)
+
