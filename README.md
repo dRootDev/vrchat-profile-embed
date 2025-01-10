@@ -52,9 +52,11 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 ```
 
 ### Required Parameters
-- `username`: Your VRChat display name
-- `vrchatId`: Your VRChat user ID (format: usr_xxxx...)
-- `profilePic`: (Optional) URL to your profile picture
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `username` | Your VRChat display name | `username=CoolUser` |
+| `vrchatId` | Your VRChat user ID | `vrchatId=usr_123456789` |
+| `profilePic` | Your VRChat profile image | `profilePic=https://url.com` |
 
 ### Social Media Links
 ```
@@ -65,21 +67,31 @@ https://www.droot.me/home/vrc/embed?username=YourName&socials[discord]=123456789
 &socials[github]=githubuser
 ```
 
+To disable individual social media links, set the value to `false`:
+```
+?socials[discord]=false
+&socials[bluesky]=false
+&socials[twitter]=false
+&socials[twitch]=false
+&socials[github]=false
+```
+
 ### Theme Colors (Use %23 for #)
 ```
-?theme[headerBg]=%23ff0000        // Header background
-&theme[headerBorder]=%23cc0000    // Header border
-&theme[buttonBg]=%230000ff        // Button background
-&theme[buttonBorder]=%230000cc    // Button border
-&theme[buttonHoverBg]=%230000dd   // Button hover background
+?theme[headerBg]=%23ff0000          // Header background
+&theme[headerBorder]=%23cc0000      // Header border
+&theme[buttonBg]=%230000ff          // Button background
+&theme[buttonBorder]=%230000cc      // Button border
+&theme[buttonHoverBg]=%230000dd     // Button hover background
 &theme[buttonHoverBorder]=%230000aa // Button hover border
 ```
 
 ### Navigation Buttons
+In order to disable them or enable them using true/false
 ```
-?showGallery=true   // Redirects to your-domain.com/gallery
-&showAvatars=true   // Redirects to your-domain.com/avatars
-&showWorlds=true    // Redirects to your-domain.com/worlds
+?showGallery=true
+&showAvatars=true
+&showWorlds=true
 ```
 
 ### Navigation Buttons
