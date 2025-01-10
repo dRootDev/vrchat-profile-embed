@@ -2,6 +2,8 @@
 
 Easily embed your VRChat profile card on any website using the embed that is hosted at droot.me.
 
+![VRChat Profile Embed Showcase](https://www.droot.me/home/files/BeWi3/hUBUrOqA42.png/raw)
+
 ## Usage Options
 
 ### Full Page Embed
